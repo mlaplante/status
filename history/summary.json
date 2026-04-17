@@ -58,5 +58,85 @@
     "dailyMinutesDown": {
       "2026-04-17": 12
     }
+  },
+  {
+    "name": "Sign",
+    "url": "https://sign.michaellaplante.com",
+    "icon": "https://icons.duckduckgo.com/ip3/sign.michaellaplante.com.ico",
+    "slug": "sign",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 121,
+    "timeDay": 121,
+    "timeWeek": 121,
+    "timeMonth": 121,
+    "timeYear": 121,
+    "dailyMinutesDown": {
+      "2026-04-17": 0
+    }
+  },
+  {
+    "name": "Drop",
+    "url": "https://drop.michaellaplante.com",
+    "icon": "https://icons.duckduckgo.com/ip3/drop.michaellaplante.com.ico",
+    "slug": "drop",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 182,
+    "timeDay": 182,
+    "timeWeek": 182,
+    "timeMonth": 182,
+    "timeYear": 182,
+    "dailyMinutesDown": {
+      "2026-04-17": 0
+    }
+  },
+  {
+    "name": "Intake",
+    "url": "https://intake.michaellaplante.com",
+    "icon": "https://icons.duckduckgo.com/ip3/intake.michaellaplante.com.ico",
+    "slug": "intake",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 139,
+    "timeDay": 139,
+    "timeWeek": 139,
+    "timeMonth": 139,
+    "timeYear": 139,
+    "dailyMinutesDown": {
+      "2026-04-17": 0
+    }
+  },
+  {
+    "name": "Onboarding",
+    "url": "https://onboarding.michaellaplante.com",
+    "icon": "https://icons.duckduckgo.com/ip3/onboarding.michaellaplante.com.ico",
+    "slug": "onboarding",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 122,
+    "timeDay": 122,
+    "timeWeek": 122,
+    "timeMonth": 122,
+    "timeYear": 122,
+    "dailyMinutesDown": {
+      "2026-04-17": 0
+    }
   }
 ]
