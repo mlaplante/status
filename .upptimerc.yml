@@ -37,7 +37,7 @@ sites:
 
 status-website:
   cname: status.michaellaplante.com
-  logoUrl: https://michaellaplante.com/favicon.ico
+  logoUrl: https://raw.githubusercontent.com/mlaplante/status/master/assets/logo@2x.png
   name: Michael La Plante Status
   introTitle: "michaellaplante.com — live status"
   introMessage: Real-time uptime and response times for michaellaplante.com, the blog, and the contact form endpoint. Checks run every 5 minutes.
@@ -87,6 +87,12 @@ status-website:
       nav a { font-weight: 500; }
       /* Hide "Powered by Upptime" footer attribution */
       footer { display: none !important; }
+      /* Logo sizing (wordmark is wide, not square) */
+      header img, .logo img, img[alt*="logo" i] {
+        height: 44px !important;
+        width: auto !important;
+        max-width: 280px;
+      }
       /* Subtle polish */
       body { line-height: 1.6; }
       ::selection { background: var(--ui-primary-accent); color: #fff; }
