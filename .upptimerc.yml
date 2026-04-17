@@ -4,14 +4,20 @@ repo: status
 sites:
   - name: Main site
     url: https://michaellaplante.com
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
   - name: Blog
     url: https://michaellaplante.com/blog
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
   - name: Contact form endpoint
     url: https://michaellaplante.com/api/contact
     method: GET
     expectedStatusCodes:
       - 200
       - 405
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
 
 status-website:
   cname: status.michaellaplante.com
