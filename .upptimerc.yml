@@ -45,9 +45,51 @@ status-website:
     - title: Status
       href: /
   customHeadHtml: |
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
+      :root {
+        --ui-primary: #1a5276;
+        --ui-primary-accent: #2980b9;
+        --ui-text: #1e293b;
+        --ui-text-muted: #64748b;
+        --ui-border: #e5e7eb;
+        --ui-surface: #ffffff;
+        --ui-bg: #f1f5f9;
+        --ui-success: #16a34a;
+        --ui-warn: #f59e0b;
+        --ui-danger: #dc2626;
+      }
+      html, body {
+        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+        background: var(--ui-bg) !important;
+        color: var(--ui-text) !important;
+      }
+      h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif !important; font-weight: 600; letter-spacing: -0.01em; }
+      code, pre, .commit-sha, .response-time { font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, monospace !important; }
+      a { color: var(--ui-primary-accent) !important; }
+      a:hover { color: var(--ui-primary) !important; }
+      /* Cards / site rows */
+      .container > div, .site, article, section > div[role="listitem"] {
+        background: var(--ui-surface);
+        border: 1px solid var(--ui-border);
+        border-radius: 10px;
+      }
+      /* Headline hero */
+      header h1 { color: var(--ui-primary) !important; font-weight: 700; }
+      header p { color: var(--ui-text-muted) !important; }
+      /* Status pill colors */
+      [class*="up"] { color: var(--ui-success); }
+      [class*="down"] { color: var(--ui-danger); }
+      [class*="degraded"] { color: var(--ui-warn); }
+      /* Nav */
+      nav a { font-weight: 500; }
       /* Hide "Powered by Upptime" footer attribution */
       footer { display: none !important; }
+      /* Subtle polish */
+      body { line-height: 1.6; }
+      ::selection { background: var(--ui-primary-accent); color: #fff; }
     </style>
 
 assignees:
