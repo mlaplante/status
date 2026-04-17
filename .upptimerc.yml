@@ -18,6 +18,22 @@ sites:
       - 405
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
+  - name: Sign
+    url: https://sign.michaellaplante.com
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
+  - name: Drop
+    url: https://drop.michaellaplante.com
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
+  - name: Intake
+    url: https://intake.michaellaplante.com
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
+  - name: Onboarding
+    url: https://onboarding.michaellaplante.com
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
 
 status-website:
   cname: status.michaellaplante.com
