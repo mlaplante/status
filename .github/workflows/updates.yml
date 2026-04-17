@@ -16,8 +16,6 @@
 
 name: Updates CI
 on:
-  push:
-    branches: [master]
   schedule:
     - cron: "0 3 * * *"
   repository_dispatch:
