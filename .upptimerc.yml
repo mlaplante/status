@@ -23,13 +23,16 @@ status-website:
   cname: status.michaellaplante.com
   logoUrl: https://michaellaplante.com/favicon.ico
   name: Michael La Plante Status
-  introTitle: "Live and historical status for michaellaplante.com"
-  introMessage: Uptime and response-time data for my personal site, blog, and contact form. Powered by [Upptime](https://upptime.js.org).
+  introTitle: "michaellaplante.com — live status"
+  introMessage: Real-time uptime and response times for michaellaplante.com, the blog, and the contact form endpoint. Checks run every 5 minutes.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  customHeadHtml: |
+    <style>
+      /* Hide "Powered by Upptime" footer attribution */
+      footer { display: none !important; }
+    </style>
 
 assignees:
   - mlaplante
