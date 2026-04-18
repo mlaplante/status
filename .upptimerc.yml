@@ -57,37 +57,41 @@ status-website:
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
-      /* Override Upptime theme variables — win over both light.css and dark.css */
+      /* Brand tokens (from brand.michaellaplante.com)
+         Primary:  Indigo 500 #3F51B5 / 600 #3849A1 / 700 #303F8C
+         Ink:      900 #111827 / 500 #374151 / 300 #6B7280
+         Paper:    2 #F8F9FA / White #FFFFFF / Line 2 #E5E7EB
+         Accents:  Green #4CAF50 / Red #F44336 / Orange #FF9800 */
       :root {
-        --body-background-color: #f1f5f9 !important;
-        --body-text-color: #1e293b !important;
+        --body-background-color: #f8f9fa !important;
+        --body-text-color: #374151 !important;
         --card-background-color: #ffffff !important;
         --nav-background-color: #ffffff !important;
         --nav-border-bottom-color: #e5e7eb !important;
-        --nav-current-border-bottom-color: #2980b9 !important;
+        --nav-current-border-bottom-color: #3f51b5 !important;
         --card-border-color: #e5e7eb !important;
-        --up-border-left-color: #16a34a !important;
-        --tag-up-background-color: #16a34a !important;
-        --down-border-left-color: #dc2626 !important;
-        --tag-down-background-color: #dc2626 !important;
-        --down-background-color: #fee2e2 !important;
-        --degraded-border-left-color: #f59e0b !important;
-        --tag-degraded-background-color: #f59e0b !important;
-        --change-background-color: #2980b9 !important;
-        --error-button-border-color: #1a5276 !important;
-        --error-button-background-color: #2980b9 !important;
-        --submit-button-border-color: #1a5276 !important;
-        --submit-button-background-color: #2980b9 !important;
+        --up-border-left-color: #4caf50 !important;
+        --tag-up-background-color: #4caf50 !important;
+        --down-border-left-color: #f44336 !important;
+        --tag-down-background-color: #f44336 !important;
+        --down-background-color: #fdecea !important;
+        --degraded-border-left-color: #ff9800 !important;
+        --tag-degraded-background-color: #ff9800 !important;
+        --change-background-color: #3f51b5 !important;
+        --error-button-border-color: #303f8c !important;
+        --error-button-background-color: #3f51b5 !important;
+        --submit-button-border-color: #303f8c !important;
+        --submit-button-background-color: #3f51b5 !important;
       }
       /* Force light regardless of OS preference */
       @media (prefers-color-scheme: dark) {
         :root {
-          --body-background-color: #f1f5f9 !important;
-          --body-text-color: #1e293b !important;
+          --body-background-color: #f8f9fa !important;
+          --body-text-color: #374151 !important;
           --card-background-color: #ffffff !important;
           --nav-background-color: #ffffff !important;
           --nav-border-bottom-color: #e5e7eb !important;
-          --nav-current-border-bottom-color: #2980b9 !important;
+          --nav-current-border-bottom-color: #3f51b5 !important;
           --card-border-color: #e5e7eb !important;
         }
       }
@@ -100,17 +104,17 @@ status-website:
         font-family: 'Poppins', sans-serif !important;
         font-weight: 600;
         letter-spacing: -0.01em;
-        color: #1a5276 !important;
+        color: #111827 !important;
       }
       code, pre { font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, monospace !important; }
-      a { color: #2980b9 !important; }
-      a:hover { color: #1a5276 !important; }
+      a { color: #3f51b5 !important; }
+      a:hover { color: #3849a1 !important; }
       nav a { font-weight: 500; }
-      nav [aria-current] { color: #1a5276 !important; border-bottom-color: #2980b9 !important; }
+      nav [aria-current] { color: #111827 !important; border-bottom-color: #3f51b5 !important; }
       /* Upptime sparkline uses mint (#1abc9c) or green (#20bf6b) as SVG fill/stroke */
       svg path[fill="#1abc9c"], svg path[fill="#20bf6b"],
-      svg [fill="#1abc9c"], svg [fill="#20bf6b"] { fill: #16a34a !important; }
-      svg [stroke="#1abc9c"], svg [stroke="#20bf6b"] { stroke: #16a34a !important; }
+      svg [fill="#1abc9c"], svg [fill="#20bf6b"] { fill: #4caf50 !important; }
+      svg [stroke="#1abc9c"], svg [stroke="#20bf6b"] { stroke: #4caf50 !important; }
       /* Hide "Powered by Upptime" footer attribution */
       footer { display: none !important; }
       /* Logo sizing (wordmark is wide, not square) */
@@ -120,7 +124,7 @@ status-website:
         max-width: 280px;
       }
       body { line-height: 1.6; }
-      ::selection { background: #2980b9; color: #fff; }
+      ::selection { background: #3f51b5; color: #fff; }
     </style>
 
 assignees:
