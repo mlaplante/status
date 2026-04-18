@@ -38,6 +38,10 @@ sites:
     url: https://brand.michaellaplante.com
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
+  - name: Search
+    url: https://search.michaellaplante.com
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
 
 status-website:
   cname: status.michaellaplante.com
