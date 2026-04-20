@@ -53,7 +53,7 @@ sites:
 
 status-website:
   cname: status.michaellaplante.com
-  logoUrl: https://raw.githubusercontent.com/mlaplante/status/master/assets/logo@2x.png
+  logoUrl: https://status.michaellaplante.com/assets/logo@2x.png
   name: Michael La Plante Status
   introTitle: "michaellaplante.com — live status"
   introMessage: Real-time uptime and response times for michaellaplante.com, the blog, and the contact form endpoint. Checks run every 5 minutes.
