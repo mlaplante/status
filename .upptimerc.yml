@@ -4,10 +4,12 @@ repo: status
 sites:
   - name: Main site
     url: https://michaellaplante.com
+    method: HEAD
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
   - name: Blog
     url: https://michaellaplante.com/blog
+    method: HEAD
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
   - name: Contact form endpoint
@@ -20,26 +22,32 @@ sites:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
   - name: Sign
     url: https://sign.michaellaplante.com
+    method: HEAD
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
   - name: Drop
     url: https://drop.michaellaplante.com
+    method: HEAD
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
   - name: Intake
     url: https://intake.michaellaplante.com
+    method: HEAD
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
   - name: Onboarding
     url: https://onboarding.michaellaplante.com
+    method: HEAD
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
   - name: Brand
     url: https://brand.michaellaplante.com
+    method: HEAD
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
   - name: Search
     url: https://search.michaellaplante.com
+    method: HEAD
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeBot/1.0; +https://status.michaellaplante.com)"
 
@@ -53,9 +61,6 @@ status-website:
     - title: Status
       href: /
   customHeadHtml: |
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
       /* Brand tokens (from brand.michaellaplante.com)
          Primary:  Indigo 500 #3F51B5 / 600 #3849A1 / 700 #303F8C
@@ -96,17 +101,17 @@ status-website:
         }
       }
       html, body {
-        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
         background-color: var(--body-background-color) !important;
         color: var(--body-text-color) !important;
       }
       h1, h2, h3, h4, h5, h6 {
-        font-family: 'Poppins', sans-serif !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
         font-weight: 600;
         letter-spacing: -0.01em;
         color: #111827 !important;
       }
-      code, pre { font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, monospace !important; }
+      code, pre { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace !important; }
       a { color: #3f51b5 !important; }
       a:hover { color: #3849a1 !important; }
       nav a { font-weight: 500; }
