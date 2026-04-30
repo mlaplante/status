@@ -4,18 +4,19 @@
     "url": "https://michaellaplante.com",
     "icon": "https://icons.duckduckgo.com/ip3/michaellaplante.com.ico",
     "slug": "main-site",
-    "status": "up",
-    "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "99.94%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
     "time": 154,
     "timeDay": 194,
     "timeWeek": 158,
     "timeMonth": 154,
     "timeYear": 154,
     "dailyMinutesDown": {
+      "2026-04-30": 0,
       "2026-04-17": 12
     }
   },
@@ -24,18 +25,19 @@
     "url": "https://michaellaplante.com/blog",
     "icon": "https://icons.duckduckgo.com/ip3/michaellaplante.com.ico",
     "slug": "blog",
-    "status": "up",
-    "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "99.94%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
     "time": 46,
     "timeDay": 34,
     "timeWeek": 36,
     "timeMonth": 46,
     "timeYear": 46,
     "dailyMinutesDown": {
+      "2026-04-30": 0,
       "2026-04-17": 12
     }
   },
@@ -44,18 +46,19 @@
     "url": "https://michaellaplante.com/api/contact",
     "icon": "https://icons.duckduckgo.com/ip3/michaellaplante.com.ico",
     "slug": "contact-form-endpoint",
-    "status": "up",
-    "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "99.94%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
-    "time": 34,
-    "timeDay": 32,
-    "timeWeek": 34,
-    "timeMonth": 34,
-    "timeYear": 34,
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
+    "time": 33,
+    "timeDay": 21,
+    "timeWeek": 31,
+    "timeMonth": 33,
+    "timeYear": 33,
     "dailyMinutesDown": {
+      "2026-04-30": 0,
       "2026-04-17": 12
     }
   },
@@ -64,9 +67,9 @@
     "url": "https://sign.michaellaplante.com",
     "icon": "https://icons.duckduckgo.com/ip3/sign.michaellaplante.com.ico",
     "slug": "sign",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -75,16 +78,18 @@
     "timeWeek": 185,
     "timeMonth": 1422,
     "timeYear": 1422,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 0
+    }
   },
   {
     "name": "Drop",
     "url": "https://drop.michaellaplante.com",
     "icon": "https://icons.duckduckgo.com/ip3/drop.michaellaplante.com.ico",
     "slug": "drop",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -93,16 +98,18 @@
     "timeWeek": 153,
     "timeMonth": 191,
     "timeYear": 191,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 0
+    }
   },
   {
     "name": "Intake",
     "url": "https://intake.michaellaplante.com",
     "icon": "https://icons.duckduckgo.com/ip3/intake.michaellaplante.com.ico",
     "slug": "intake",
-    "status": "up",
+    "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.94%",
@@ -112,6 +119,7 @@
     "timeMonth": 568,
     "timeYear": 568,
     "dailyMinutesDown": {
+      "2026-04-30": 0,
       "2026-04-17": 10
     }
   },
@@ -120,9 +128,9 @@
     "url": "https://onboarding.michaellaplante.com",
     "icon": "https://icons.duckduckgo.com/ip3/onboarding.michaellaplante.com.ico",
     "slug": "onboarding",
-    "status": "up",
+    "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.94%",
@@ -132,6 +140,7 @@
     "timeMonth": 233,
     "timeYear": 233,
     "dailyMinutesDown": {
+      "2026-04-30": 0,
       "2026-04-17": 10
     }
   },
@@ -140,9 +149,9 @@
     "url": "https://brand.michaellaplante.com",
     "icon": "https://icons.duckduckgo.com/ip3/brand.michaellaplante.com.ico",
     "slug": "brand",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -151,16 +160,18 @@
     "timeWeek": 143,
     "timeMonth": 160,
     "timeYear": 160,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 0
+    }
   },
   {
     "name": "Search",
     "url": "https://search.michaellaplante.com",
     "icon": "https://icons.duckduckgo.com/ip3/search.michaellaplante.com.ico",
     "slug": "search",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -169,6 +180,8 @@
     "timeWeek": 140,
     "timeMonth": 131,
     "timeYear": 131,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 0
+    }
   }
 ]
